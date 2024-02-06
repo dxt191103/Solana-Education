@@ -27,22 +27,12 @@ const HomeEducation = () => {
                     <Button
                       className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                       color="default"
-                      href={'/education/teacher'}
+                      href={'/education/student'}
                     >
                       <span className="btn-inner--icon mr-1">
                         <i className="fa fa-play" />
                       </span>
-                      <span className="btn-inner--text">{`Change to teacher`}</span>
-                    </Button>
-                    <Button
-                      className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                      color="default"
-                      href={'/education/profile'}
-                    >
-                      <span className="btn-inner--icon mr-1">
-                        <i className="fa fa-play" />
-                      </span>
-                      <span className="btn-inner--text">{`View Your profile`}</span>
+                      <span className="btn-inner--text">{`Back to your view`}</span>
                     </Button>
                   </div>
                 </Col>
